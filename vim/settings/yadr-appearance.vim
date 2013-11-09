@@ -16,7 +16,13 @@ if has("gui_running")
   set lines=60
   set columns=190
 
-  set guifont=Inconsolata\ XL:h17,Inconsolata:h20,Monaco:h17
+  if has("gui_gtk2")
+    set guifont=Inconsolata\ 12
+  elseif has("gui_macvim")
+    set guifont=Menlo\ Regular:h14
+  else
+    set guifont=Inconsolata\ XL:h17,Inconsolata:h20,Monaco:h17
+  endif
 else
   "dont load csapprox if we no gui support - silences an annoying warning
   let g:CSApprox_loaded = 1
