@@ -196,6 +196,9 @@ nmap <silent> ,vr :so %<CR>
 " Type ,hl to toggle highlighting on/off, and show current value.
 noremap ,hl :set hlsearch! hlsearch?<CR>
 
+" Type ,p to toggle paste mode on/off, and show current value.
+noremap ,p :set paste! paste?<CR>
+
 " These are very similar keys. Typing 'a will jump to the line in the current
 " file marked with ma. However, `a will jump to the line and column marked
 " with ma.  It’s more useful in any case I can imagine, but it’s located way
