@@ -101,8 +101,8 @@ Bundle "vim-scripts/sudo.vim"
 Bundle "xsunsmile/showmarks.git"
 Bundle "terryma/vim-multiple-cursors"
 "vim-misc is required for vim-session
-Bundle "xolox/vim-misc"
-Bundle "xolox/vim-session"
+"Bundle "xolox/vim-misc"
+"Bundle "xolox/vim-session"
 
 " Text objects
 Bundle "austintaylor/vim-indentobject"
