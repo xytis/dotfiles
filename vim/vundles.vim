@@ -119,6 +119,7 @@ Bundle "nathanaelkane/vim-indent-guides"
 Bundle "nelstrom/vim-textobj-rubyblock"
 Bundle "thinca/vim-textobj-function-javascript"
 Bundle "vim-scripts/argtextobj.vim"
+Bundle "glts/vim-textobj-comment"
 
 " Cosmetics, color scheme, Powerline...
 Bundle "chrisbra/color_highlight.git"
