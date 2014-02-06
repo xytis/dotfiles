@@ -41,6 +41,9 @@ fi
 # vimrc editing
 alias ve='vim ~/.vimrc'
 
+# vim tools
+alias vihosts='vim /etc/hosts'
+
 # zsh profile editing
 alias ze='vim ~/.zshrc'
 alias zr='source ~/.zshrc'
