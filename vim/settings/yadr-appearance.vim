@@ -24,6 +24,9 @@ else
   if exists("g:yadr_using_unsolarized_terminal")
     let g:solarized_termcolors=256
     let g:solarized_termtrans=1
+  else
+    let g:solarized_termcolors=16
+    let g:solarized_termtrans=1
   end
 endif
 
