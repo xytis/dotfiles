@@ -1,5 +1,10 @@
 " Make it beautiful - colors and fonts
 
+if !has('gui_running')
+    let g:solarized_termtrans=1
+    let g:solarized_termcolors = 16
+endif
+
 " http://ethanschoonover.com/solarized/vim-colors-solarized
 colorscheme solarized
 set background=dark
