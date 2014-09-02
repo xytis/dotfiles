@@ -47,6 +47,10 @@
   dc = diff --cached                # diff staged changes
   last = diff HEAD^                 # diff last committed change
 
+  # fetch
+  f = fetch
+  fall = fetch --all
+
   # log
   l = log --graph --date=short
   changes = log --pretty=format:\"%h %cr %cn %Cgreen%s%Creset\" --name-status
