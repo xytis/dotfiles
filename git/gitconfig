@@ -98,6 +98,9 @@
   svnd = svn dcommit
   svnl = svn log --oneline --show-commit
 
+  # ctags builder
+  ctags = !.git/hooks/ctags
+
 [format]
   pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
 [mergetool]
@@ -134,3 +137,5 @@
   enabled = true
 [include]
   path = .gitconfig.user
+[init]
+	templatedir = ~/.gittemplate
