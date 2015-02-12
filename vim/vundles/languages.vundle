@@ -14,4 +14,5 @@ Bundle "skwp/vim-html-escape"
 Bundle "tpope/vim-haml"
 Bundle "honza/vim-snippets"
 Bundle "wting/rust.vim"
+Bundle "fatih/vim-go"
 
