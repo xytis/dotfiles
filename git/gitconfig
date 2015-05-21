@@ -23,6 +23,10 @@
   #via http://stackoverflow.com/questions/5188320/how-can-i-get-a-list-of-git-branches-ordered-by-most-recent-commit
   recent-branches = !git for-each-ref --count=15 --sort=-committerdate refs/heads/ --format='%(refname:short)'
 
+  #via http://stackoverflow.com/questions/2919878/git-rewrite-previous-commit-usernames-and-emails
+  #Usage: git change-commits GIT_AUTHOR_NAME "old name" "new name"
+  change-commits = "!f() { VAR=$1; OLD=$2; NEW=$3; shift 3; git filter-branch --env-filter \"if [[ $`echo $VAR` = \\\"$OLD\\\" ]]; then export $VAR=\\\"$NEW\\\"; fi\" $@; }; f "
+
   # branch
   b = branch -v                     # branch (verbose)
 
