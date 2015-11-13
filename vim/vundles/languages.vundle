@@ -13,3 +13,6 @@ Bundle 'tpope/vim-haml'
 Bundle 'wting/rust.vim'
 Bundle 'fatih/vim-go'
 Bundle 'Glench/Vim-Jinja2-Syntax'
+Bundle 'nikvdp/ejs-syntax'
+
+Bundle 'rizzatti/dash.vim'
