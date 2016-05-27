@@ -5,8 +5,7 @@ let g:indent_guides_guide_size = 1
 let g:indent_guides_start_level = 2
 
 nmap <silent><unique> <Leader>ig <Plug>IndentGuidesToggle
-
-autocmd FileType pug call s:enable_indent_guides()
+autocmd FileType pug,python call s:enable_indent_guides()
 function! s:enable_indent_guides()
   autocmd VimEnter * :IndentGuidesEnable
 endfunction
