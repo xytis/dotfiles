@@ -10,7 +10,7 @@ set runtimepath^=~/.config/nvim/plugins
 set runtimepath^=~/.config/nvim/dein
 call dein#begin(expand('~/.config/nvim/cache'))
 
-call dein#add('Shougo/dein.vim')
+call dein#add(expand('~/.config/nvim/dein'))
 
 runtime appearance.vim
 runtime base.vim
