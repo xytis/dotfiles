@@ -11,5 +11,6 @@ call dein#add("Glench/Vim-Jinja2-Syntax")
 call dein#add("nikvdp/ejs-syntax")
 call dein#add("fatih/vim-hclfmt")
 call dein#add("seveas/bind.vim")
+call dein#add("apeschel/vim-syntax-syslog-ng")
 
 call dein#add("nathanaelkane/vim-indent-guides")
