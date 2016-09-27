@@ -12,13 +12,9 @@ call dein#begin(expand('~/.config/nvim/cache'))
 
 call dein#add(expand('~/.config/nvim/dein'))
 
-runtime appearance.vim
-runtime base.vim
-runtime git.vim
-runtime languages.vim
-runtime search.vim
-runtime textobjects.vim
-runtime vim-improvements.vim
+for f in split(glob('~/.config/nvim/plugins/*.vim'), '\n')
+  exec "source " . f
+endfor
 
 call dein#end()
 
