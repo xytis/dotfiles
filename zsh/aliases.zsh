@@ -215,3 +215,4 @@ alias dbmu='spring rake db:migrate:up'
 alias brewu='brew update  && brew upgrade --all && brew cleanup && brew prune && brew doctor'
 
 alias ap='ansible-playbook'
+alias k='kubectl ${KUBECTL_NAMESPACE/[[:alnum:]-]*/--namespace=${KUBECTL_NAMESPACE}}'
