@@ -15,5 +15,3 @@ call dein#add("xytis/vim-syntax-syslog-ng")
 call dein#add("robbles/logstash.vim")
 
 call dein#add("nathanaelkane/vim-indent-guides")
-
-call dein#add("JKirchartz/writegooder.vim")
