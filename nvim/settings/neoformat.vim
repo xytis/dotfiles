@@ -1,7 +1,7 @@
 nnoremap <leader>F :Neoformat<cr>
 
-let g:neoformat_try_formatprg = 1
-let g:neoformat_only_msg_on_error = 1
+" let g:neoformat_try_formatprg = 1
+" let g:neoformat_only_msg_on_error = 1
 
 let g:neoformat_javascript_stdfmt = {
             \ 'exe': 'standard-format',
