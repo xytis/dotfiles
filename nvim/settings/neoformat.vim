@@ -10,6 +10,7 @@ let g:neoformat_javascript_stdfmt = {
             \ }
 
 let g:neoformat_enabled_javascript = ['stdfmt', 'standard']
+let g:neoformat_enabled_yaml = []
 
 augroup terraform
   autocmd!

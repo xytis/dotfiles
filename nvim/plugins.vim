@@ -12,6 +12,7 @@ set runtimepath^=~/.config/nvim/dein
 call dein#begin(expand('~/.config/nvim/cache'))
 
 call dein#add(expand('~/.config/nvim/dein'))
+call dein#add(expand('~/.config/nvim/thex'))
 
 for f in split(glob('~/.config/nvim/plugins/*.vim'), '\n')
   exec "source " . f

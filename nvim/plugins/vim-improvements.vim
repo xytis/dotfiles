@@ -20,5 +20,6 @@ call dein#add("vim-scripts/AnsiEsc.vim.git")
 call dein#add("vim-scripts/AutoTag.git")
 call dein#add("vim-scripts/lastpos.vim")
 call dein#add("vim-scripts/sudo.vim")
+call dein#add("vim-scripts/todo-txt.vim")
 call dein#add("goldfeld/ctrlr.vim")
 
